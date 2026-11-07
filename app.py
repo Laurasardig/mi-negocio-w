@@ -72,7 +72,7 @@ with st.expander("Ver el código Python de la entrega"):
 with st.expander("Ver código de la versión Streamlit"):
     st.code((BASE / "app.py").read_text(encoding="utf-8"), language="python")
     st.code((BASE / "calculos.py").read_text(encoding="utf-8"), language="python")
-documento = BASE / "docs" / "Laura_Sardi_PrimerProgramaPython.pdf"
+documento = BASE / "Laura_Sardi_PrimerProgramaPython.pdf"
 if documento.exists():
     st.download_button("Descargar entrega en PDF", documento.read_bytes(),
                        file_name=documento.name, mime="application/pdf")

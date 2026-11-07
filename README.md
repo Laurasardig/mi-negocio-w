@@ -2,6 +2,10 @@
 
 Proyecto académico de **Laura Sardi** para la actividad **Mi primer programa en Python**.
 
+**[Abrir la calculadora en Streamlit](https://mi-negocio-w-laura-sardi.streamlit.app/)**
+
+[Consultar el PDF de la entrega](Laura_Sardi_PrimerProgramaPython.pdf)
+
 La calculadora recibe las ventas, el costo de productos o materiales vendidos y los otros gastos del mismo mes, en pesos colombianos enteros. Calcula el total de egresos y el resultado, e identifica ganancia, pérdida o equilibrio.
 
 ```text
